@@ -1,0 +1,91 @@
+/*  navbar-1  */
+.apps .navbar-first{
+    height: 75px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding-top: 6px;
+}
+
+/* Aloqa */
+
+.apps .nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.apps .nav-texts{
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 180px;
+    font-size: 13px;
+    margin: auto 30px;
+    line-height:15px;
+    padding-top:15px ;
+}
+.apps .nav-texts span{
+    width: 100%;
+    height: 100%;
+    margin-left: 8px;
+}
+
+/*  Yeoju belgisi  */
+
+.apps .nav-bars{
+    width: 228px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 80px;
+    padding-top: 8px;
+}
+.apps .nav-bars a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #338AF3;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 18px;
+    font-weight: bold;
+}
+.apps .nav-bars span{
+    width: 100%;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.logos{
+    width: 40px;
+    height: 50px;
+}
+
+/*  translated  */
+.nav-len{
+    text-decoration: none;
+    background: rgba(205, 226, 236, 0.1);
+    color: #007bff;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    border:none;
+    margin-bottom: 15px;
+}
+.nav-len option{
+    padding-right: 5px;
+}
+
+

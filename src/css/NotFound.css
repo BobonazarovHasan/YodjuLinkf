@@ -1,0 +1,37 @@
+.NotFound p{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    margin-right: 5px;
+    color: #004F73;
+}
+.NotFound button{
+    width: 190px;
+    height: 43px;
+    color: #ffffff;
+    background: #0096DB;
+    border-radius: 7px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top:20px;
+    margin-left: 15px;
+
+}
+.NotFound button:hover{
+    color: #ffffff;
+    background-color: #00A2ED;
+    /*transition: transform 450ms linear;*/
+    text-decoration: none;
+    /*transform: scale3d(1.06, 1.06, 1.06);*/
+    box-shadow: 0 2px 10px rgba(22, 14, 14, 0.25);
+}
+.NotFound button:active{
+    transform: scale3d(1, 1, 1);
+    color:#004F73;
+    background-color: #ffffff;
+}

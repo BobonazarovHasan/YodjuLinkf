@@ -1,0 +1,43 @@
+.news{
+    background: rgba(154, 154, 154, 0.2);
+    border-radius: 10px;
+    height: 450px;
+    padding: 50px;
+}
+
+.news .message{
+    height: 211px;
+}
+.news .col{
+    margin-top:10px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.news .col label,.btn{
+    margin: 5px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.news .btn{
+    width: 99px;
+    height: 40px;
+    background: #0096DB;
+    color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.news .btn:hover{
+    background-color: #00A2ED;
+}
+.news  .btn:active{
+    transform: scale3d(1, 1, 1);
+    color:#004F73;
+    background-color: #ffffff;
+}
+
+.word span{
+    font-size: 10px;
+    line-height: 12px;
+}

@@ -1,0 +1,43 @@
+.menu-visa table{
+    line-height: 20px;
+}
+
+.menu-visa .table td{
+    border-top: none;
+}
+
+.menu-visa .col-md-8 td{
+    font-weight: bold;
+}
+
+.menu-visa span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #004F73;
+    line-height: 100%;
+    word-spacing: 2px;
+}
+
+.topic{
+    line-height: 10px;
+}
+.visa-col {
+    margin-bottom: -10px;
+}
+.visa-row{
+    margin-bottom: 20px;
+}
+.visa-row h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+.visa-row p{
+    line-height: 19px;
+}
+.ml-5 .col-md-2{
+    margin-right: 20px;
+}
+.menu-visa .pt-4 .hrs{
+    margin-top: 0;
+}

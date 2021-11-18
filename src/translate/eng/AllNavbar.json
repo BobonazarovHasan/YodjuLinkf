@@ -1,0 +1,263 @@
+{
+  "appNav": {
+    "t-1": "Write to us",
+    "t-2": "Communication",
+    "t-3": "Address"
+  },
+  "enter": {
+    "span": "Dear entrant, enter your phone number to register:",
+
+    "p": "The main purpose of registration by personal phone number is to verify the identity of the applicant. An activation code will be sent to the phone number. Only one entrant can register via one phone number.",
+
+    "a": "Forget password?",
+
+    "in-1": "Phone number",
+    "in-2": "Password",
+
+    "btn-1": "Continue",
+    "btn-2": "Registration"
+  },
+  "visa": {
+    "span": "Resolution"
+  },
+  "register": {
+
+    "in": "Enter the password again",
+    "btn": "Back"
+  },
+  "notFount": {
+    "p": "Page not found",
+    "btn": "Home"
+  },
+  "application": {
+    "p": "The appeal is closed"
+  },
+  "forget": {
+
+    "p": "Reset password",
+    "btn-1": "Send",
+    "btn-2": "Login"
+
+  },
+  "appPage": {
+    "p": "Yeoju Technical Institute in Tashkent 2021"
+  },
+  "ol": {
+
+    "h1": "IMPORTANT REMINDER!",
+    "span-1": "The entrant is not allowed before the test in the following cases:",
+    "span-2": "The applicant is suspended from the test in the following cases:",
+
+    "li-1": " late; ",
+    "li-2": " in the absence of a passport, pass; ",
+    "li-3": " if you have a mobile phone or other electronic device with you, reference materials, cheat sheets; ",
+    "li-4": " if the temperature is 37 degrees or higher; ",
+
+    "li-5": "if it does not follow the relevant instructions of the Admissions Committee members and observers; ",
+    "li-6": "if he helps other applicants or receives help from other applicants;",
+    "li-7": "if the applicant discovers cheat sheets, a mobile phone and / or other electronic devices (even if they have not been used);",
+    "li-8": "if it will show test materials to other applicants or view test materials of other applicants;",
+    "li-9": "if he talks during testing and interferes with other applicants;",
+    "li-10": "if he tears up the test materials and the answer sheet, pass them on to others and take them out of the testing room;",
+    "li-11": "if he takes off his medical mask;"
+  },
+  "menuNav": {
+    "li-1": "Home",
+    "li-2": "Applicant permit",
+    "li-3": "Submission of documents",
+    "li-4": "Appeal",
+    "li-5": "Personal information",
+    "li-6": "Important reminder",
+    "li-7": "Help",
+    "li-8": "Statistics 2021-2022",
+
+    "li-9": "Privileges"
+  },
+  "menuEnter": {
+    "h": "Services",
+    "h-1": "The result"
+  },
+  "menuVisa": {
+    "id": "ID:",
+    "fish": "F.I.SH:",
+    "pass": "Password:",
+    "date": "Date of birth:",
+    "test-1": "Test area and time of arrival:",
+    "test-2": "Test address:",
+    "test-3": "Place of testing:",
+    "smena": "Shift:",
+    "guruh": "Sector number:",
+    "guruhRaqam": "Group number:",
+    "shakl": "Form of education:",
+    "til": "Language of education:",
+    "testT": "Test language:",
+
+    "page-1": "The chosen direction of education",
+    "page-2": "Privileges",
+    "page-3": "Note to applicants",
+
+    "page": "For the 2021-2022 academic year"
+
+  },
+  "menuPr": {
+
+    "h": "Privileges",
+
+    "card-1": "Benefit for people with disabilities",
+    "card-2": "Foreign language certificates",
+    "card-3": "Winner of international and national Olympiads, competitions and contests",
+    "card-4": "Winner of the State Prize named after  \"Zulfiya\"",
+    "card-5": "Winner of the state award \"Mard o`g`lon\"",
+    "card-6": "Winner of the \"Nihol\" Award",
+    "card-7": "He has a recommendation from the Republican Commission of the \"Yoshlar ittifoqi\" of Uzbekistan",
+    "card-8": "A graduate of the Temurbek school",
+    "me": "Not available",
+    "q": "Add"
+  },
+  "menuPerson": {
+    "td-1": "Serial number:",
+    "td-2": "Surname:",
+    "td-3": "Name:",
+    "td-4": "Father's name:",
+    "td-5": "Date of birth:",
+
+    "page-1": "Passport",
+    "page-2": "Permanent residence address",
+    "page-3": "Graduated educational institution",
+
+    "btn": "Delete account"
+  },
+  "adminNav": {
+    "li-1": "Applications",
+    "li-2": "Statistics",
+    "li-3": "News",
+    "li-4": "Admins",
+    "li-5": "Country",
+    "li-6": "Regions",
+    "li-7": "Districts",
+    "li-8": "Faculties",
+    "li-9": "Types of education",
+    "li-10": "Languages of education",
+
+
+    "exit":"Exit"
+  },
+  "admin": {
+    "page": "Status:",
+    "page-1": "Basic information",
+
+    "circle-1": "All applications",
+    "circle-2": "Accepted",
+    "circle-3": "Rejected",
+    "circle-4": "Waiting",
+
+    "tables-1":"All applications",
+    "tables-2":"Accepted applications",
+    "tables-3":"Rejected applications",
+    "tables-4":"New applications",
+
+    "th-1": "Firstname / Lastname",
+    "th-2": "Date of registration",
+    "th-3": "Direction",
+    "th-4": "Phone number",
+
+    "mes-1": "Message...",
+    "mes-2": "Send to everyone",
+    "mes-3": "Send to everyone",
+    "mes-4": "Send to the fallen",
+    "mesBtn": "Send",
+
+
+    "ths-1": "Ta'lim turlari",
+    "ths-2": "Ta'lim tillari",
+    "ths-3": "Region",
+    "ths-4": "Vazifasi",
+    "ths-5": "F.I.O",
+
+    "addBtn": "Add",
+    "editBtn": "Edit",
+    "closeBtn": "Close"
+
+  },
+  "cardsOne":{
+
+    "menuOne": "1. Personal information",
+    "oneInput-1": "Name: (As in the passport)",
+    "oneInput-2": "Father's name: (As in the passport)",
+    "oneInput-3": "Date of birth:",
+    "oneInput-4": "Last name: (As in the passport)",
+    "oneInput-5": "Gender:",
+    "oneInput-6": "Disability status:",
+
+
+
+    "page-1": "Instructions for submission of documents ",
+    "page-2": " from here ",
+    "page-3": " download",
+
+    "text-1": "1. The picture part should look good",
+    "text-2": "2. The propiska part must be well liked",
+    "text-3": "The file must be in jpg, png, pdf format",
+    "text-4": "File size should not exceed 5mb",
+
+    "oneFileBtn": "Select a file",
+    "imgPage": "The file is not selected",
+
+
+
+
+    "menuTwo": "2. Information about the place of residence",
+    "opt-1": " Country:",
+    "opt-2": " City / District:",
+    "opt-3": " Region:",
+    "opt-4": "  Address:",
+
+    "menuThree": "3. Civic information",
+    "threeInput-1": "Citizenship:",
+    "threeInput-2": "Nationality:",
+    "threeInput-3": "Passport series and number:",
+
+
+    "menuFour": "4. Contact information",
+    "fourInput-1": " Personal phone number:",
+    "fourInput-2": " Home phone number:",
+    "fourInput-3": " E-mail:",
+    "fourInput-4": "Father's phone number:",
+    "fourInput-5": " Mother's phone number:",
+    "fourInput-6": "Telegram username:",
+
+    "twoFileBtn": "Save and go to the next page"
+  },
+  "cardsTwo": {
+
+    "menuOne": "1. Information about secondary education",
+    "oneInput-1": "Graduated from school / college / lyceum:",
+    "oneInput-2": "Region:",
+    "oneInput-3": "City / District:",
+    "oneInput-4": "Completion date:",
+    "oneInput-5": "Diploma / Certificate number:",
+
+    "menuTwo": "2. Information on knowledge of foreign languages\n",
+    "twoOpt-1": "Certificate type:",
+    "twoOpt-2": "scores:",
+    "twoOpt-3": "Certificate number:",
+
+
+    "btn-1": "Go back",
+    "btn-2": "Submission of documents",
+
+
+    "menuThree": " 3. Choice of education",
+    "threeOpt-1": " Choose a program:",
+    "threeOpt-2": " Choose main direction:",
+    "threeOpt-3": " Choose the type of education:",
+    "threeOpt-4": " Choose the language of instruction:",
+    "threeOpt-5": " Choose additional areas of study:",
+
+    "choose": "difficult discipline:"
+  },
+  "section": {
+    "1": "When will the entrance exam take place?",
+    "2": "What will be the registration process this year"
+  }
+}

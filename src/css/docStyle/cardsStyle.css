@@ -1,0 +1,261 @@
+
+/*    doc-body   */
+.cards .doc-body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.cards .doc-body p {
+    color: #0096DB;
+    justify-content: start;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/*    card-title    */
+.cards .cards-title {
+    border: 1.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/*   card-name  */
+.cards .card-name {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background: #0096DB;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* doc-row  */
+
+.cards .doc-row {
+    padding:  15px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*  tap, input, label */
+.cards .tap {
+    margin: 35px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .tap label {
+    color: #0096DB;
+    margin: 6px 0;
+}
+
+.cards .tap input, .select, option {
+    border-radius: 10px;
+    flex: none;
+    font-size: 18px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 30px;
+    /*width: 400px;*/
+    width: 90%;
+}
+
+.cards .tap p {
+    font-size: 13.5px;
+}
+
+/*  input hover  */
+.cards .tap hr {
+    margin-top: -25px;
+    width: 1px;
+    margin-bottom: 2px;
+    margin-left: 0;
+    transition: 400ms;
+}
+
+.cards .tap:hover hr {
+    transition: 400ms;
+    width: 150px;
+    margin-left: 0;
+    background-color: #BDBDBD;
+}
+
+.cards .tap .cont{
+    margin-left: 0;
+}
+
+/*   doc-btn   */
+.cards .doc-btn {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px ;
+    margin-right: 68px;
+    margin-bottom: 60px;
+}
+
+.cards .doc-btn .btn {
+    justify-content: center;
+    align-items: center;
+    background: #0096DB;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 36%;
+    /*width: 400px;*/
+    height: 44px;
+    font-family: Source Sans Pro, serif;
+    font-weight: bold;
+}
+.cards .doc-btn .btn:hover{
+    background-color: #00A2ED;
+}
+.cards .doc-btn  .btn:active{
+    transform: scale3d(1, 1, 1);
+    color:#004F73;
+    background-color: #ffffff;
+}
+
+
+
+/*       IMG-Style       */
+.cards .image-tap {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    max-height: 350px;
+    width: 430px;
+}
+
+.cards .cont .wrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px dashed #c2cdda;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cards .wrapper.active{
+    border: none;
+}
+
+.cards .wrapper .image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cards .wrapper .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards .wrapper .content .icon {
+    font-size: 50px;
+    color: #9658fe;
+    margin-top: -80px;
+}
+
+.cards .wrapper .content .text {
+    font-size: 16px;
+    color: #5B5B7B;
+}
+
+.cards .wrapper #cancel-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #9658fe;
+    display: none;
+}
+
+
+.cards .wrapper.active:hover #cancel-btn {
+    display: flex;
+    color: #c2cdda;
+}
+.cards .wrapper.active:hover .file-name {
+    display: none;
+    color: #c2cdda;
+}
+
+
+.cards .wrapper .file-name{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    display: block;
+    padding: 4px 0;
+    font-size: 14px;
+    background:linear-gradient(135deg,#3a8ffe 0%, #9658fe 100%);
+
+}
+
+.cards .cont #custom-btn{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius:  25px;
+    font-weight: 500;
+    display: block;
+    /*text-transform: uppercase;*/
+    background:linear-gradient(135deg,#3a8ffe 0%, #9658fe 100%);
+    color: #fff;
+
+}
+
+
+/*  Tab-Link  */
+
+.cards .rwt__tab {
+    border: 1.5px solid #0096DB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px 8px;
+    display: inline-flex;
+    color:#0096DB ;
+    background: transparent;
+    font-family: inherit;
+    padding: 1rem 2rem;
+    transition: background 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.cards .rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]{
+    background-color: #0096DB;
+    color: #ffffff;
+}
+
+.cards .rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]:after{
+  display: none;
+}
+
+.cards .rwt__tab[aria-selected="false"]:hover,
+.cards .rwt__tab:focus {
+    outline: 0;
+    background-color: #f4f4f4;
+    background-color: rgba(0,0,0,0.05);
+}
+
+
+

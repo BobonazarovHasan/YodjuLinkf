@@ -1,0 +1,36 @@
+.menu-enter .col-card{
+    height: 203px;
+    width: 203px;
+    background: #0096DB;
+    text-align: center;
+    font-style: normal;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+}
+.menu-enter .col-card:hover{
+    margin-top: -5px;
+    box-shadow: 2px 2px 7px rgba(7, 7, 7, 12);
+    transition: 300ms;
+
+}
+.menu-enter .col a{
+    text-decoration: none;
+}
+
+.menu-enter .labels{
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.menu-enter label{
+    margin-bottom: -5px;
+}
+.menu-enter .col-card img{
+    width: 103px;
+    height: 103px;
+}

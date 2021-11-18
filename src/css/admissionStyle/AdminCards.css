@@ -1,0 +1,309 @@
+
+/*    doc-body   */
+.admission-cards .doc-body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.admission-cards .doc-body p {
+    color: #0096DB;
+    justify-content: start;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/*    card-title    */
+.admission-cards .cards-title {
+    background-color: rgba(154, 154, 154, 0.2);
+    border: 1.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/*  card-title: link-btn    */
+
+.admission-cards .link-col{
+    padding-left: 80px;
+    padding-top: 40px;
+    display: flex;
+
+}
+
+.admission-cards .link-row .link-btn{
+    width: 44px;
+    height: 44px;
+    border: 1px solid #0096DB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 22px;
+    margin:10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#0096DB ;
+}
+
+
+/*   card-name  */
+.admission-cards .card-name {
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 452px;
+    background:#26D317;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+/* doc-row  */
+
+.admission-cards .doc-row {
+    padding:  15px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+/*  tap, input, label */
+.admission-cards .tap {
+    margin: 35px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.admission-cards .tap label {
+    color: #0096DB;
+    margin: 6px 0;
+}
+
+.admission-cards .tap input, .select, option {
+    border-radius: 10px;
+    flex: none;
+    font-size: 18px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 30px;
+    /*width: 400px;*/
+    width: 90%;
+}
+
+
+.admission-cards .tap p {
+    font-size: 13.5px;
+}
+
+/*  input hover  */
+.admission-cards .tap hr {
+    margin-top: -25px;
+    width: 1px;
+    margin-bottom: 2px;
+    margin-left: 0;
+    transition: 400ms;
+}
+
+.admission-cards .tap:hover hr {
+    transition: 400ms;
+    width: 150px;
+    margin-left: 0;
+    background-color: #BDBDBD;
+}
+
+.admission-cards .tap .cont{
+    margin-left: 0;
+}
+
+/*   doc-btn   */
+.admission-cards .doc-btn {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px ;
+    margin-right: 68px;
+    margin-bottom: 60px;
+}
+
+.admission-cards .doc-btn .btn {
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Source Sans Pro, serif;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.admission-cards .doc-btn  .btn:active{
+        color:#004F73;
+        background-color: #ffffff;
+    }
+
+
+/*       IMG-Style       */
+.admission-cards .image-tap {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    max-height: 350px;
+    width: 430px;
+}
+
+.admission-cards .cont .wrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px dashed #c2cdda;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.admission-cards .wrapper.active{
+    border: none;
+}
+
+.admission-cards .wrapper .image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.admission-cards .wrapper .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.admission-cards .wrapper .content .icon {
+    font-size: 50px;
+    color: #9658fe;
+    margin-top: -80px;
+}
+
+.admission-cards .wrapper .content .text {
+    font-size: 16px;
+    color: #5B5B7B;
+}
+
+.admission-cards .wrapper #cancel-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #9658fe;
+    display: none;
+}
+
+
+.admission-cards .wrapper.active:hover #cancel-btn {
+    display: flex;
+    color: #c2cdda;
+}
+.admission-cards .wrapper.active:hover .file-name {
+    display: none;
+    color: #c2cdda;
+}
+
+
+.admission-cards .wrapper .file-name{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    display: block;
+    padding: 4px 0;
+    font-size: 14px;
+    background:linear-gradient(135deg,#3a8ffe 0%, #9658fe 100%);
+
+}
+
+.admission-cards .cont #custom-btn{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius:  25px;
+    font-weight: 500;
+    display: block;
+    /*text-transform: uppercase;*/
+    background:linear-gradient(135deg,#3a8ffe 0%, #9658fe 100%);
+    color: #fff;
+
+}
+
+
+
+/*  Tab-Link  */
+.admission-cards .admin-page{
+    font-family: Source Sans Pro,sans-serif;
+    font-style: normal;
+    color: #0096DB;
+    font-weight: 600;
+    margin: 40px auto -60px auto;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;}
+
+.admission-cards .rwt__tabs[data-rwt-vertical="true"] {
+    display: flex;
+}
+.admission-cards .rwt__tablist:not([aria-orientation="vertical"]) {
+    border-bottom: 1px solid #ddd;
+}
+.admission-cards .rwt__tablist[aria-orientation="vertical"] {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-right: 1px solid #ddd;
+    margin-right: 1rem;
+}
+.admission-cards .tabs-link{
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+
+.admission-cards .rwt__tab {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #0096DB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 22px;
+    margin:10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:#0096DB ;
+}
+
+
+.admission-cards .rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]{
+    background-color: #0096DB;
+    color: #ffffff;
+}
+.admission-cards .rwt__tab[aria-selected="false"]:hover,
+.rwt__tab:focus {
+    outline: 0;
+    background-color: #f4f4f4;
+    background-color: rgba(0,0,0,0.05);
+}

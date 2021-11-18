@@ -1,0 +1,141 @@
+.person .person-row{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 18px;
+
+
+}
+.person .person-row label{
+    padding-left:6px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.person .person-cols{
+    margin-left: 10px;
+}
+.person .person-cols p{
+    margin-left: 35px;
+}
+
+/*  card-1 ning ichki qismi  */
+.person .person-card-1{
+    width: 185px;
+    height: 508px;
+    background: #EFEFEF;
+    border-radius: 7px;
+}
+.person .person-card-1 img{
+    width: 121px;
+    height: 160px;
+    /*margin:auto;*/
+    margin-top:37px;
+    margin-left:33px ;
+    margin-right:33px ;
+}
+.person .person-card-1 label{
+    font-size: 16px;
+    margin:5px auto;
+}
+
+.person .person-card-1 button{
+    color: #ffffff;
+    background: #338AF3;
+    border-radius: 60px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin:15px auto;
+    padding-top:10px ;
+    padding-bottom:10px;
+    -webkit-animation: pulse 5s ease-in-out infinite;
+    -moz-animation: pulse 3s ease-in-out infinite;
+    -o-animation: pulse 3s ease-in-out infinite;
+    animation: pulse 3s ease-in-out infinite;
+}
+.person .person-card-1 button:hover{
+    color: #ffffff;
+}
+
+.person .person-card-1 button:active{
+    color:#004F73;
+    background-color: #ffffff;
+}
+
+/*animation*/
+.person .btn {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.08, 1.08, 1.08);
+        transform: scale3d(1.08, 1.08, 1.08);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.08, 1.08, 1.08);
+        transform: scale3d(1.08, 1.08, 1.08);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/*  card-2 ning ichki qismi  */
+
+.person .person-card-2{
+    width: 748px;
+    height: 255px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    background: #EFEFEF;
+    padding-right: 25px;
+}
+.person .person-card-2 span{
+    margin-left: 2px;
+}
+.person .person-col-table td{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+    line-height: 30px;
+    border-top: none;
+    padding-left: 18px;
+}
+.person .person-col-table span{
+    font-weight: bold;
+    align-items: center;
+    letter-spacing: 0.01em;
+    font-size: 16px;
+}
+
+
+/*  card-3-4 ning ichki qismi  */
+.person .person-card-3{
+    width: 748px;
+    height: 100px;
+    background: #EFEFEF;
+    border-radius: 7px;
+
+}

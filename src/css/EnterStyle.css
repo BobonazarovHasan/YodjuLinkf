@@ -1,0 +1,76 @@
+.enter-row .page{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    margin-right: 5px;
+    color: #004F73;
+}
+
+.enter-col .err{
+    color: red;
+}
+
+
+/*  input  */
+.enter-input{
+    width: 400px;
+    margin: 30px 0;
+}
+
+.enter-input input{
+    border: 1.5px solid #6C6C6C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 44px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/*       button     */
+.enter-button{
+    display: flex;
+    width: 400px;
+    margin: 20px 0;
+}
+
+.enter-button button{
+    width: 190px;
+    height: 43px;
+    color: #ffffff;
+    background: #0096DB;
+    border-radius: 7px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 5px;
+
+}
+.enter-button button:hover{
+    color: #ffffff;
+    background-color: #00A2ED;
+    /*transition: transform 450ms linear;*/
+    text-decoration: none;
+    /*transform: scale3d(1.06, 1.06, 1.06);*/
+    box-shadow: 0 2px 10px rgba(22, 14, 14, 0.25);
+}
+.enter-button button:active{
+    transform: scale3d(1, 1, 1);
+    color:#004F73;
+    background-color: #ffffff;
+}
+
+/*  p  */
+.enter-col p{
+    font-size: 12px;
+    margin-right: 100px;
+}
+
+/*  img */
+.enter-col img{
+    width: 420px;
+    height: 420px;
+}

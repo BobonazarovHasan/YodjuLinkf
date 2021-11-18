@@ -1,0 +1,105 @@
+.statistics {
+    font-family: Source Sans Pro,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 105%;
+    color: #0096DB;
+    align-items: center;
+    letter-spacing: 0.01em;
+    margin: 10px 0;
+}
+.statistics .col{
+    background: rgba(154, 154, 154, 0.2);
+    border-radius: 10px;
+    margin: 10px;
+    height: 418px;
+}
+
+
+.statistics .line-chart{
+    height: 330px;
+    margin: -14px 15px;
+    background-color: #ffffff;
+}
+.statistics .btn{
+    width: 100%;
+}
+
+.statistics .btn button{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 100%;
+    color: #ffffff;
+    margin: 25px;
+
+}
+.statistics .btn-1{
+    background: #0096DB;
+}
+.statistics .btn-2{
+    background: #FF0000;
+}
+
+
+.statistics .static {
+    background-color: #ffffff;
+    color: #0096DB;
+    z-index: 1;
+    cursor: pointer;
+    /*padding: 16px   65px;*/
+    width: 100%;
+    border: 1px solid #0096DB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:0 10px;
+    text-align: left;
+    outline: none;
+
+    transition: 0.4s;
+}
+
+.active, .static:hover {
+    background-color: #fff;
+}
+.static:after {
+    content: '\25b2';
+    color: #0096DB;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    margin-right: 80px;
+    margin-top: 15px;
+}
+
+.active:after {
+    content: "\25bc";
+}
+.panel {
+    background: rgba(154, 154, 154, 0.2);
+    max-height: 0;
+    width: 100%;
+    height: 100px;
+    padding:0 10px;
+    margin: 0 10px;
+    border-radius:0 0 10px 10px;
+
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel td{
+    border-right: 1px solid rgba(255, 255, 255, 1);
+    display: inline-flex;
+    font-weight: bold;
+}
+.panel .boy{
+    color: #0096DB;
+    font-weight: normal;
+}
+.panel .girl{
+    color: #FF0000;
+    font-weight: normal;
+}

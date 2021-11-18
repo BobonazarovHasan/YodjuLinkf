@@ -1,0 +1,87 @@
+.adminPersons {
+    font-family: Source Sans Pro,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 105%;
+    color: #0096DB;
+    align-items: center;
+    letter-spacing: 0.01em;
+    margin: 10px 0;
+}
+
+.adminPersons .cols{
+    background: rgba(154, 154, 154, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+}
+.adminPersons .btn{
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 45px;
+    height: 40px;
+    font-size: 20px;
+    display: inline-flex;
+    font-family: Source Sans Pro, serif;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    background-color:#0096DB ;
+}
+.adminPersons .table th,.adminPersons .table td {
+    vertical-align: middle;
+    padding: 7px;
+    border: 0.5px solid #0096DB;
+}
+
+.adminPersons .btn:hover{
+    background-color: #00A2ED;
+    color: #FFFFFF;
+}
+.adminPersons  .btn:active{
+    transform: scale3d(1, 1, 1);
+    color:#004F73;
+    background-color: #ffffff;
+}
+
+
+.adminPersons .search{
+    color: #0096DB;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-flex;
+    border: 1px solid #0096DB;
+    font-family: Source Sans Pro, serif;
+    border-radius: 7px;
+    background-color: rgba(154, 154, 154, 0.1);
+}
+
+.adminPersons #pageDropDown{
+    color: #0096db;
+    width: 45px;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    background-color: transparent;
+}
+.adminPersons .dropdown-menu{
+    background-color: #00A2ED;
+}
+.adminPersons .dropdown-item{
+    color: #FFFFFF;
+
+}
+.adminPersons .active:after {
+    display: none;
+}
+.adminPersons .page-link{
+    background-color: transparent;
+}
+.adminPersons .pagination{
+    float: right;
+}
+
